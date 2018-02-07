@@ -2,41 +2,48 @@ body {
 	background-color: khaki;
 }
 .header {
-	background-color: goldenrod;
+	background-color: #ff9400;
 	margin-top: 0;
 	padding: 20px;
 	padding-left: 40px;
 }
 .header h1, 
+.header h1 a,
 .header h1 a:visited, 
 .header h1 a:active {
 	color: white;
 	font-size: 36pt;
 	text-decoration: none;
+	margin-top: 0;
+	padding-top: 0;
 }
 .content {
 	margin-left: 40px;
 }
 h1, h2, h3, h4 {
 	font-family: 'Lobster', cursive;
-	margin-top: 0;
-	padding-top: 0
 }
 .date {
 	color: #828282;
-	margin-top: 20px
+	margin-bottom: 5px;
 }
 .save {
 	float: right;
 }
-.post-form textarea, .post-form input {
+.post-form textarea, 
+.post-form input {
 	width: 100%;
+}
+.menu,
+.menu:hover,
+.menu:visited {
+	color: white;
 	float: right;
 	font-size: 26pt;
 	margin-right: 20px;
 }
 .post {
-	margin-bottom: 35spx;
+	margin-bottom: 35px;
 }
 .post h3 a, .post h3 a:visited {
 	color: black
